@@ -941,8 +941,8 @@ body::before {
         </g>
       </svg>
 
-      <span class="ltr-date">February 14, 2026</span>
-      <span class="ltr-salut">My Dearest Love,</span>
+      <span class="ltr-date">March, 2026</span>
+      <span class="ltr-salut">To the only person I've ever love,,</span>
       <span class="ltr-body">
 I don't know where to begin,
 because every time I try to put
@@ -1230,7 +1230,7 @@ you're still the one I choose.
   <div class="mini-letter-peek" id="miniPeek">
     <div class="mini-peek-tab">
       <span class="mini-peek-env"></span>
-      <span class="mini-peek-label">one last thing, Babi ♡</span>
+      <span class="mini-peek-label">To Babi ♡</span>
     </div>
   </div>
 
