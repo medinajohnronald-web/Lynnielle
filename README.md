@@ -8,7 +8,7 @@
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { overflow: hidden; height: 100%; }
+html, body { overflow: hidden; height: 100%; }
 body {
   height: 100vh;
   display: flex;
@@ -35,8 +35,11 @@ body::before {
 ═══════════════════════════ */
 #envelope-screen {
   display: flex;
+  position: fixed;
+  inset: 0;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 0;
   z-index: 1;
 }
@@ -141,11 +144,14 @@ body::before {
 ═══════════════════════════ */
 #letter-screen {
   display: none;
+  position: fixed;
+  inset: 0;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 20px 0 20px;
+  box-sizing: border-box;
   z-index: 1;
   overflow: hidden;
   animation: letterAppear 0.55s cubic-bezier(0.34, 1.4, 0.64, 1) both;
@@ -158,9 +164,11 @@ body::before {
 }
 
 .letter-scroll {
-  width: 340px;
-  max-height: calc(100vh - 100px);
+  width: min(340px, 92vw);
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
   border-radius: 10px;
   scrollbar-width: thin;
@@ -290,15 +298,16 @@ body::before {
 ═══════════════════════════════════════════════ */
 #ring-screen {
   display: none;
+  position: fixed;
+  inset: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   gap: 0;
   z-index: 1;
-  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   animation: letterAppear 0.6s cubic-bezier(0.34,1.4,0.64,1) both;
   background: radial-gradient(ellipse at 50% 45%, #1a0510 0%, #07010d 100%);
   overflow: hidden;
@@ -758,6 +767,8 @@ body::before {
 ═══════════════════════════ */
 #yes-screen, #no-screen {
   display: none;
+  position: fixed;
+  inset: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
