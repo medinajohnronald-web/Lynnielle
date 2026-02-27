@@ -1482,8 +1482,13 @@ I love you. And I want you to know that, I'm all in.
 
 <!-- ═══ SCREEN 4b: NO ═══ -->
 <div id="no-screen">
-  <p class="response-msg" style="color:#6080b0;">Oh...</p>
-  <p class="response-sub" style="color:#506090;">That's okay. My feelings for you don't change. Whenever you're ready, I'll still be here.</p>
+  <p class="response-msg" style="color:#6080b0;">That's okay...</p>
+  <p class="response-sub" style="color:#506090;"> 
+My love for you doesn’t disappear just because the timing wasn’t right.
+I don’t want a forced yes — I want a ready one.
+and when the day comes that you’re sure, I’ll still be here choosing you.
+    
+    </p>
   <button class="btn-restart" id="btnRestartNo" style="border-color:#8090c0;color:#6080b0;">← Start over</button>
 </div>
 
