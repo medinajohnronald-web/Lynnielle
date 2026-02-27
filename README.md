@@ -1027,7 +1027,7 @@ And I will, babi, as long as I exist.
 Not because I have to — but because, even after everything we've been through, 
 you're still the one I choose.
       </span>
-      <span class="ltr-proposal">Will you marry me? ♡</span>
+      <span class="ltr-proposal">From Bab,♡</span>
       <span class="ltr-sign">— Yours, always &amp; forever.</span>
     </div>
   </div>
